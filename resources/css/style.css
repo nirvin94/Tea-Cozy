@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  color: Seashell;
+
+}
+
+/* header style */
+#header {
+  border-bottom: 1px solid Seashell;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+#header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#header a {
+  padding-right: 10px;
+  color: Seashell;
+}
+
+#nav {
+  padding-right: 10px;
+}
+
+/* mission style */
+
+/* tea of the month style */
+
+/* locations style */
+
+/* footer style */
