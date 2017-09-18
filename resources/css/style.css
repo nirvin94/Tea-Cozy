@@ -12,11 +12,15 @@ body {
   border-bottom: 1px solid Seashell;
   height: 69px;
   position: fixed;
+  top: 0;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: center;
+  z-index: 1000;
+  background-color: black;
 }
 
 #header img {
@@ -34,6 +38,37 @@ body {
 }
 
 /* mission style */
+#mission {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+  top: 70px;
+}
+
+#mission h2 {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  width: 1200px;
+  margin: 0;
+}
+
+#mission h4 {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  width: 1200px;
+  margin: 0;
+}
+
 
 /* tea of the month style */
 
